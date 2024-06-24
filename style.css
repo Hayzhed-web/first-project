@@ -1,0 +1,1123 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.container {
+    width: 100%;
+}
+
+.headerhero {
+    background-image: url(./images/heroBack.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    padding-top: 2rem;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    gap: 2rem;
+}
+
+li {
+    list-style: none;
+    color: white;
+    font-family: Montserrat;
+}
+
+.btn button {
+    background: rgba(27, 199, 104,1);
+    font-family: Montserrat; 
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21.86px;
+    border: none;
+    padding: .5rem 1.5rem;
+    border-radius: 50px;
+    cursor: pointer;
+    color: white;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    /* margin-bottom: -.3rem; */
+}
+
+.heroText h2{
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 45.57px;
+    color: white;
+    margin-top: 5rem;
+}
+
+.heroText p{
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24.59px;
+    color:white;
+    padding: 1rem 0;
+}
+
+.heroImage{
+    margin-top: .1rem;
+}
+
+.heroText{
+    width:40%;
+    margin-top: 2rem;
+}
+
+.heroImage img{
+    width: 100%;
+    margin-top: 6rem;
+}
+
+.heroBtn button{
+    font-family: montserrat;
+    font-size: 16px;
+    border: 1px solid white;
+    padding: .5rem 1.5rem;
+    border-radius: 50px;
+    cursor: pointer;
+    background: none;
+    color: white;
+    margin-right: 1rem;
+}
+
+.heroBtn button:hover{
+    background: white;
+    color: blue;
+}
+
+.heroBtn{
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+
+.heroForm{
+    width: 100%;
+}
+
+.heroForm input{
+    width: 70%;
+    padding: .7rem;
+    border: none;
+    border-radius: 50px 0px 0px 50px;
+}
+
+.heroForm button{
+    width: 20%;
+    padding: .7rem;
+    background:rgba(27, 199, 104,1);
+    color: white;
+    cursor: pointer;
+    border:rgba(27, 199, 104,1);
+    margin-left: -.3rem;
+    border-radius: 0px 50px 50px 0px; 
+}
+
+
+.innerContainer{
+    width: 80%;
+    margin: auto;
+}
+
+.affiliation{
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.topAffiliate h2{
+    font-family: Montserrat;
+    font-size: 36px;
+    line-height: 49.18px;
+    color: rgba(4, 60, 170,1);
+}
+
+.juhel img{
+    width: 100%;
+}
+.gsk img{
+    width: 100%;
+}
+.Emzor img{
+    width: 100%;
+}
+
+.lines{
+    display: flex;
+    width: 10%;
+    margin: auto;
+}
+
+.blue{
+    width: 45.5px;
+    border:2px solid rgba(4, 60, 170,1);
+    border-radius: 50px 0 0 50px;
+}
+
+.green{
+    width: 45.5px;
+    border:2px solid rgba(27, 199, 104,1);
+    border-radius: 0 50px 50px 0;
+}
+
+.affiliateImages{
+    display: flex;
+    gap: 5rem;
+    width: 40%;
+    margin: auto;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.topBenefits h2{
+    font-family: Montserrat;
+    font-size: 36px;
+    line-height: 49.18px;
+    color: rgba(4, 60, 170,1);
+    text-align: center;
+}
+
+.medicine{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.option{
+    display: flex;
+    align-items: center;
+    gap: .7rem;
+    margin-top: 1rem;
+}
+
+.optionText p{
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24.59px;
+}
+
+.medicineText h5{
+    font-family: Montserrat;
+    font-size: 24px;
+    line-height: 32.78px;
+    color: rgba(4, 60, 170,1);
+    width: 60%;
+    padding-bottom: 1rem;
+}
+
+.medicineText button{
+    font-family: montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgba(27, 199, 104,1);
+    padding: 1rem 2rem;
+    border: 1px solid rgba(27, 199, 104,1);
+    background: transparent;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-top: 2rem;
+}
+
+.medicineText button:hover{
+    background: rgba(27, 199, 104,1);
+    color: white;
+}
+
+.doorstep{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.doorstepImage Img{
+    width: 90%;
+}
+
+.doorstepOptionText{
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24.59px;
+}
+
+.doorstepOption{
+    display: flex;
+    align-items: center;
+    gap: .7rem;
+    margin-top: 1rem;
+}
+
+.doorstepText h6{
+    font-family: Montserrat;
+    font-size: 24px;
+    line-height: 32.78px;
+    color: rgba(4, 60, 170,1);
+    width: 80%;
+    padding-bottom: 1rem;
+}
+
+.doorstepText button{
+    font-family: montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgba(27, 199, 104,1);
+    padding: 1rem 2rem;
+    border: 1px solid rgba(27, 199, 104,1);
+    background: transparent;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-top: 2rem;
+}
+
+.doorstepText button:hover{
+    background: rgba(27, 199, 104,1);
+    color: white;
+}
+
+.profile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profileText h4{
+    font-family: Montserrat;
+    font-size: 24px;
+    line-height: 32.78px;
+    color: rgba(4, 60, 170,1);
+    width: 50%;
+    padding-bottom: 1rem;
+}
+
+.profileOption {
+    display: flex;
+    align-items: center;
+    gap: .7rem;
+    margin-top: 1rem;
+}
+
+.profileOptionText p{
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24.59px;
+}
+
+.profile button{
+    font-family: montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgba(27, 199, 104,1);
+    padding: 1rem 2rem;
+    border: 1px solid rgba(27, 199, 104,1);
+    background: transparent;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-top: 2rem;
+}
+
+.profile button:hover{
+    background: rgba(27, 199, 104,1);
+    color: white;
+}
+
+.profileOptionImage Img{
+    width: 80%;
+}
+
+.clients{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+
+.line{
+    display: flex;
+    width: 40%;
+    margin: auto;
+}
+
+.clientText h2{
+    font-family: montserrat;
+    font-size: 36px;
+    line-height: 49.18px;
+    margin-bottom: .5rem;
+}
+
+.clientText p{
+    font-family: montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24.59px;
+    padding: 2rem 0 1rem 0;
+    width: 90%;
+    color: #7A7A7A;
+}
+
+.clientText h5{
+    font-family: montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 49.18px;
+    color: rgba(4, 60, 170,1);
+    padding-bottom: 2rem;
+}
+
+.clientImage img{
+    width: 100%;
+}
+
+.clientImage{
+    width: 50%;
+}
+
+.clientText{
+    width: 40%;
+}
+
+footer{
+    background: #043CAA;
+}
+
+.footcontainer{
+    width: 80%;
+    margin: auto;
+    padding: 2rem 0;
+}
+
+.signup{
+    display: flex;
+    justify-content: space-between;
+}
+
+.signupText h3{
+    font-family: montserrat;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32.78px;
+    color: white;
+    padding-bottom: 1rem;
+}
+
+.signupText p{
+    font-family: montserrat;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24.59px;   
+    color: white;
+}
+
+.signupInput input{
+    padding: .7rem;
+    border:1px solid #fff;
+    border-radius: 50px 0 0 50px;
+    width: 60%;
+    margin-top: 1rem;
+}
+
+.signupInput button{
+    font-family: montserrat;
+    padding: .7rem;
+    background: rgba(27, 199, 104,1);
+    color: #fff;
+    cursor: pointer;
+    border: rgba(27, 199, 104,1);
+    margin-left: -.25rem;
+    border-radius: 0 50px 50px 0;
+    width: 30%;
+    margin-bottom: 1rem;
+}
+
+.signupInput label{
+    font-family: montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24.59px;
+    color: #fff;
+}
+
+.signupText{
+    width: 40%;
+}
+
+.signupInput{
+    width: 40%;
+}
+
+.dexpress{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+}
+
+.dexpressText h4{
+    font-family: montserrat;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32.78px;
+    color: white;
+    padding-bottom: 1rem;
+}
+
+.dexpressText p{
+    font-family: montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24.59px;
+    color: #fff;
+    /* gap: 10rem; */
+}
+
+.dexpressText{
+    width: 20% ;
+}
+
+.quick h4{
+    font-family: montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24.59px;
+    color: white;
+    padding-bottom: 1rem;
+}
+
+.quick p{
+    font-family: montserrat;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 21.86px;
+    color: #fff;
+    padding-bottom: 1rem;
+}
+
+.quick{
+    align-items: center;
+    gap: 3rem;
+}
+
+.services h4{
+    font-family: montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24.59px;
+    color: white;
+    padding-bottom: 1rem;
+}
+
+.services p{
+    font-family: montserrat;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 21.86px;
+    color: #fff;
+    padding-bottom: 1rem;
+}
+.media h4{
+    font-family: montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24.59px;
+    color: white;
+    padding-bottom: 1rem;
+}
+
+.media p{
+    font-family: montserrat;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 21.86px;
+    color: #fff;
+    padding-bottom: 1rem;
+}
+
+.below{
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.below p{
+    font-family: montserrat;
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 21.86px;
+    color: #fff;  
+}
+
+@media screen and (max-width: 1024px){
+    .heroText h2{
+        font-size: 35px;
+        font-weight: 600;
+        line-height: 65.57px;
+    }
+
+    .heroText p{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24.59px;
+        padding: 1rem 0;
+    }
+
+    .heroText{
+        width: 50%;
+        margin-top: 8rem;
+    }
+
+    .affiliateImages{
+        width: 60%;
+    }
+
+    .optionText p{
+        font-size: 16px;
+    }
+
+    .medicineText h5{
+        width: 70%;
+    }
+
+    .clientText h2{
+        font-size: 30px;
+    }
+
+    .signupInput{
+        width: 50%;
+    }
+
+    .dexpress{
+        gap: 3rem;
+    }
+
+    .dexpressText{
+        width: 25%;
+        font-size: 16px;
+    }
+
+    .doorstepImage Img{
+        gap: 15rem;
+    }
+
+    .profileText h4{
+        width: 70%;
+    }
+
+    .profileOptionText p{
+        font-size: 16px;
+    }
+
+    .profileImage Img{
+        width: 100%;
+    }
+
+    .medicineImage{
+        width: 70%;
+    }
+
+    .optionText p{
+        font-size: 16px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    nav{
+        display: none;
+    }
+    
+    .btn{
+        display: none;
+    }
+
+    .heroText h2{
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 45.57px;
+    }
+
+    .heroText p{
+        font-size: 13px;
+        font-weight: 400;
+    }
+
+    .heroText{
+        width: 65%;
+        margin-top: 6rem;
+    }
+
+    .heroBtn button{
+        padding: .5rem 1rem;
+    }
+
+    .heroForm button{
+        width: 25%;
+    }
+
+    .heroForm input{
+        width: 68%;
+    }
+
+    .heroImage img{
+        width: 115%;
+    }
+
+    .heroimage{
+        width: 50%;
+    }
+
+    .optionText p{
+        font-size: 11px;
+        font-weight: 400;
+    }
+
+    .medicineText h5{
+        width: 85%;
+        font-size: 20px;
+    }
+
+    .medicineImage img{
+        width: 100%;
+    }
+
+    .medicineText button{
+        font-size: 14px;
+        font-weight: 400;
+        padding: .7rem 1rem;
+    }
+
+    .clientText h2{
+        font-size: 23px;
+        line-height: 39.18px;
+        margin-bottom: .1rem;
+    }
+    
+    .clientText p{
+        font-size: 14px;
+        width: 90%;
+        padding: 1rem 0 .5rem 0;
+    }
+
+    .clientText h5{
+        font-size: 14px;
+        padding-bottom: 1rem;
+    }
+    
+    .blue{
+        width: 35.5px;
+    }
+    
+    .green{
+        width: 35.5px;
+    }
+
+    .signupInput input{
+        width: 60%;
+    }
+    
+    .signupInput button{
+        font-size: 12px;
+        width: 40%;
+        padding: .7rem;
+    }
+
+    .signupInput{
+        width: 45%;
+    }
+
+    .dexpressText h4{
+        font-size: 18px;
+    }
+
+    .dexpressText p{
+        font-size: 14px;
+        margin-top: -1rem;
+        width: 100%;
+    }
+
+    .quick h4{
+        font-size: 16px;
+    }
+    
+    .quick p{
+        font-size: 14px;
+    }
+    
+    .quick{
+        align-items: center;
+        gap: 3rem;
+    }
+    
+    .services h4{
+        font-size: 16px;
+    }
+    
+    .services p{
+        font-size: 14px;
+    }
+
+    .media h4{
+        font-size: 16px;
+    }
+    
+    .media p{
+        font-size: 14px;
+    }
+
+    .signupText h3{
+        font-size: 18px;
+    }
+
+    .signupText p{
+        font-size: 14px;
+    }
+    
+    .signupInput label{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 426px){
+    .hero{
+        display: block;
+        width: 90%;
+        margin: auto;
+    }
+
+    .heroText{
+        width: 100%;
+        margin-top: .5rem;
+    }
+
+    .heroImage{
+        width: 100%;
+        margin-left: 0rem;
+    }
+
+    .heroBtn button{
+        font-size: 16px;
+        padding: 0.5rem 1.5rem;
+        border-radius: 50px;
+        margin-right: .4rem;
+    }
+
+    .heroForm{
+        width: 100%;
+    }
+    
+    .heroForm input{
+        width: 70%;
+        padding: 0.7rem;
+    }
+    
+
+    .heroForm button{
+        width: 25%;
+    }
+
+    .lines{
+        display: flex;
+        width: 20%;
+        margin: auto;
+    }
+      
+    .blue{
+        width: 45.5px;
+    }
+
+    .green{
+        width: 45.5px;
+    }
+      
+    .affiliateImages{
+        display: flex;
+        gap: 3rem;
+        width: 100%;
+        margin: auto;
+        margin-top: 2rem;
+        margin-bottom: 3rem;
+    }
+      
+    .topAffiliate h2{
+      font-size: 30px;
+    }
+
+    .topBenefits h2{
+        font-size: 30px;
+    }
+    
+    .medicine{
+        flex-direction: column;
+        margin-top: 2rem;
+    }
+      
+    .optionText p{
+        font-size: 14px;
+        font-weight: 400;
+    }
+      
+    .medicineText h5{
+        font-size: 20px;
+        width: 70%;
+    }
+
+    .doorstep{
+        flex-direction: column-reverse;
+        margin-top: 2rem;
+    }
+
+    .doorstepText h6{
+        font-size: 20px;
+        width: 70%;
+    }
+
+    .doorstepOptionText p{
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .doorstepImage img{
+        width: 80%;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .doorstepText button{
+        font-size: 14px;
+        font-weight: 400;
+        padding: .7rem 1rem;
+    }
+
+    .profile{
+        flex-direction: column;
+    }
+
+    .profileText h4{
+        font-size: 20px;
+        width: 70%; 
+    }
+
+    .profileOptionText p{
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .profile button{
+        font-size: 14px;
+        font-weight: 400;
+        padding: .7rem 1rem;
+    }
+
+    .profileOptionImage Img{
+        width: 100%;
+    }
+    
+    .clients{
+        flex-direction: column;
+    }
+
+    line{
+        display: flex;
+        width: 40%;
+        margin: auto;
+    }
+    
+    .clientText h2{
+        font-size: 30px;
+        line-height: 49.18px;
+        margin-bottom: .5rem;
+    }
+    
+    .clientText p{
+        font-size: 14px;
+        width: 90%;
+    }
+    
+    .clientText h5{
+        font-size: 14px;
+        padding-bottom: 2rem;
+    }
+
+    .clientImage img{
+        width: 100%;
+    }
+    
+    .clientImage{
+        width: 100%;
+    }
+    
+    .clientText{
+        width: 100%;
+        margin-top: 1rem;
+        margin-left: 2rem;
+    }
+
+    .signup{
+        flex-direction: column;
+    }
+    
+    .signupText h3{
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 32.78px;
+        width: 100%;
+    }
+    
+    .signupText p{
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 24.59px;   
+    }
+    
+    .signupInput input{
+        padding: .7rem;
+        border:1px solid #fff;
+        border-radius: 50px 0 0 50px;
+        width: 60%;
+        margin-top: 1rem;
+    }
+    
+    .signupInput button{
+        font-family: montserrat;
+        padding: .7rem;
+        background: rgba(27, 199, 104,1);
+        color: #fff;
+        cursor: pointer;
+        border: rgba(27, 199, 104,1);
+        margin-left: -.25rem;
+        border-radius: 0 50px 50px 0;
+        width: 30%;
+        margin-bottom: 1rem;
+    }
+    
+    .signupInput label{
+        font-family: montserrat;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 24.59px;
+        color: #fff;
+    }
+    
+    .signupText{
+        width: 100%;
+    }
+    
+    .signupInput{
+        width: 100%;
+    }
+    
+    .dexpress{
+        flex-direction: column;
+        margin-top: 4rem;
+    }
+    
+    .dexpressText h4{
+        font-family: montserrat;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 32.78px;
+        color: white;
+        padding-bottom: 1rem;
+    }
+    
+    .dexpressText p{
+        font-family: montserrat;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 24.59px;
+        color: #fff;
+        /* gap: 10rem; */
+    }
+    
+    .dexpressText{
+        width: 100% ;
+    }
+    
+    .quick h4{
+        font-family: montserrat;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 24.59px;
+        color: white;
+        padding-bottom: .5rem;
+    }
+    
+    .quick p{
+        font-family: montserrat;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 21.86px;
+        color: #fff;
+        padding-bottom: .5rem;
+    }
+    
+    .quick{
+        align-items: center;
+        gap: 3rem;
+    }
+    
+    .services h4{
+        font-family: montserrat;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 24.59px;
+        color: white;
+        padding-bottom: 1rem;
+    }
+    
+    .services p{
+        font-family: montserrat;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 21.86px;
+        color: #fff;
+        padding-bottom: 1rem;
+    }
+    .media h4{
+        font-family: montserrat;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 24.59px;
+        color: white;
+        padding-bottom: 1rem;
+    }
+    
+    .media p{
+        font-family: montserrat;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 21.86px;
+        color: #fff;
+        padding-bottom: 1rem;
+    }
+    
+    .below{
+        text-align: center;
+        padding-top: 2rem;
+    }
+    
+    .below p{
+        font-family: montserrat;
+        font-size: 14px;
+        font-weight: 200;
+        line-height: 21.86px;
+        color: #fff;  
+    }
+}
